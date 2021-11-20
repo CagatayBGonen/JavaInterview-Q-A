@@ -6,7 +6,7 @@ public class C05_QuotientAndRemainder {
         int division = 4; //bolen
 
         int quotient = dividend / division; //bolum
-        int remainder = dividend & division; //kalan
+        int remainder = dividend % division; //kalan
 
         System.out.println(quotient);
         System.out.println(remainder);
